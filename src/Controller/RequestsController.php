@@ -18,7 +18,7 @@ class RequestsController extends AppController
         //Get the fields from header
         $getdata = $_GET;
 
-        if (!isset($getdata)) {
+        if (empty($getdata)) {
             // This is a browser request
             //This reads and returns the records from the database file
             $data = $this->fetchrecords();
