@@ -14,7 +14,7 @@
         <div class="col-md-12">
             <div class="panel panel-white">
                 <div class="panel-heading">
-                    <h3 class="panel-title">Add Teller</h3>
+                    <h3 class="panel-title">Add Record</h3>
                 </div>
                 <div class="panel-body">
                     <?php echo $this->Form->create(); ?>
